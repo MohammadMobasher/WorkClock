@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="30dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_Close_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:id="@+id/txt_Title_Toolbar_test"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_test"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:clickable="true"
+        android:src="@drawable/ic_add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabAutomatic_test"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="17dp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:src="@mipmap/img0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabHandy_test"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="130dp"
+        android:layout_marginRight="17dp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:src="@mipmap/img1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabTimer_test"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="180dp"
+        android:layout_marginRight="17dp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:src="@mipmap/img2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteX="300dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:id="@+id/rv_clock"
+        android:scrollbars="vertical" />
+
+</android.support.constraint.ConstraintLayout>

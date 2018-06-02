@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">کارتکس ساعت</string>
+
+    <!--<string name="Message_Delete_Success">Item Deleted.</string>-->
+    <string name="Message_Delete_Success">آیتم مورد نظر حذف شد.</string>
+    <string name="Message_Insert_Success">آیتم مورد نظر ثبت شد.</string>
+    <!--<string name="Message_Insert_Success">Item Inserted.</string>-->
+    <!--<string name="Message_Update_Success">Item Updated.</string>-->
+    <string name="Message_Update_Success">آیتم مورد نظر به روز رسانی شد.</string>
+
+    <string name="Message_Delete_UnSuccess">Item Not Deleted.</string>
+    <string name="Message_Insert_UnSuccess">Item Not Inserted.</string>
+    <string name="Message_Update_UnSuccess">Item Not Updated.</string>
+
+    <string name="Insert">ثبت</string>
+    <string name="Update">به روز رسانی</string>
+    <string name="Delete">حذف</string>
+    <string name="Cancel">لغو</string>
+    <string name="Start">شروع کار</string>
+    <string name="Stop">پایان کار</string>
+    <string name="Yes">بله</string>
+    <string name="No">خیر</string>
+
+    <string name="txt_DeleteProject">حذف پروژه</string>
+    <string name="txt_DeleteClock">حذف ساعت کاری</string>
+
+    <string name="Date">تاریخ :</string>
+    <string name="Time">زمان :</string>
+
+    <string-array name="ListProjectItemsLongClick">
+        <item>تغییر نام</item>
+        <item>حذف</item>
+        <item>ثبت ساعت</item>
+    </string-array>
+
+    <string-array name="ListClockItemsLongClick">
+        <item>حذف</item>
+        <item>به روز رسانی</item>
+    </string-array>
+
+    <string name="Excel_TimeIn">Time In</string>
+    <string name="Excel_TimeOut">Time Out</string>
+    <string name="Excel_TimeSum">Sum Times</string>
+</resources>

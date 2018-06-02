@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/borderwithripple"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="65dp">
+            <TextView
+
+                android:id="@+id/txt_SumDT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="TextView"
+                android:layout_weight="0.50"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <TextView
+                android:id="@+id/txt_Name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_weight="0.50"
+                android:gravity="right|center"
+                android:textSize="18dp"
+                android:paddingRight="12dp"
+                android:text="TextView" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
