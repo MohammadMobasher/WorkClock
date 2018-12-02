@@ -14,7 +14,7 @@
             android:id="@+id/txt_Title_dialog"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginRight="10dp"
+            android:paddingRight="80px"
             android:gravity="right|center_vertical"
             android:paddingLeft="10dp"
             android:text="ثبت پروژه جدید"
@@ -27,11 +27,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:gravity="right|center_vertical"
+        android:gravity="left|center_vertical"
         android:orientation="horizontal">
 
         <LinearLayout
-            android:layout_width="250dp"
+            android:layout_width="230dp"
             android:layout_height="match_parent"
             android:gravity="center">
 
@@ -39,7 +39,7 @@
                 android:id="@+id/edt_Title_NewProject"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:layout_marginLeft="10dp"
+                android:layout_marginLeft="0dp"
                 android:textAllCaps="false"
                 android:textDirection="rtl" />
         </LinearLayout>

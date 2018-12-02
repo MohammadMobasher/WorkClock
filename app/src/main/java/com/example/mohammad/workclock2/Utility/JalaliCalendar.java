@@ -171,9 +171,10 @@ public class JalaliCalendar extends Calendar {
 
     public static gDate MiladiToJalali(gDate gregorian) {
 
-        if (gregorian.getMonth() > 11 || gregorian.getMonth() < -11) {
-            throw new IllegalArgumentException();
-        }
+        //Log.d("mohammad", gregorian.getMonth() + "");
+//        if (gregorian.getMonth() > 11 || gregorian.getMonth() < -11) {
+//            throw new IllegalArgumentException();
+//        }
         int jalaliYear;
         int jalaliMonth;
         int jalaliDay;

@@ -48,7 +48,7 @@ public class ad_Project  extends RecyclerView.Adapter<ad_Project.ViewHolder> imp
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
 
         View v = inflater.inflate(R.layout.rv_project_item, parent, false);
-        v.setClickable(true);
+        //v.setCickable(true);
         ViewHolder vh = new ViewHolder(v, this.context, this.listener, this.myactvListener);
         return vh;
     }
